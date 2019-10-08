@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef02adc8-9eb4-4ea1-8b11-800130f2a2a4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordCountApp.java" afterPath="$PROJECT_DIR$/src/main/java/WordCountApp.java" />
-    </list>
+    <list default="true" id="ef02adc8-9eb4-4ea1-8b11-800130f2a2a4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,11 +37,9 @@
       <file leaf-file-name="SystemsJoinMapper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SystemsJoinMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,8 +98,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/WordReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/WordMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SystemsJoinMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/WordCountApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SystemsJoinMapper.java" />
       </list>
     </option>
   </component>
@@ -285,12 +281,12 @@
       <option name="presentableId" value="Default" />
       <updated>1570540474320</updated>
       <workItem from="1570540478028" duration="260000" />
-      <workItem from="1570540787474" duration="448000" />
+      <workItem from="1570540787474" duration="492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="708000" />
+    <option name="totallyTimeSpent" value="752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -425,11 +421,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SystemsJoinMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
