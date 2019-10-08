@@ -8,12 +8,9 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 
 
-public class WordMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
-    @Override protected
-    void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-      StringTokenizer itr = new StringTokenizer(value.toString()," \t\n\r,.-;:!?*()\"—//”#$%1234567890=[]»…«„");
-      while (itr.hasMoreTokens()) {
-        context.write(new Text(itr.nextToken()), new IntWritable(1));
-      }
-    }
-}
+public class CallsJoinMapper extends Mapper<LongWritable, Text, TextPair, Text> {
+    @Override
+    protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+        ServiceCall call = new ServiceCall(value); context.write(new TextPair(call.getSystemA().toString(),"1"),
+                new Text(call.toString()));
+    } }
