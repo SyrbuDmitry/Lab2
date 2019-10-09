@@ -10,7 +10,7 @@ public class FlightWritable implements Writable {
     private FloatWritable ARR_DELAY, ARR_DELAY_NEW, CANCELLED, AIR_TIME, DISTANCE;
     private Text FL_DATE, UNIQUE_CARRIER, CARRIER, TAIL_NUM, CANCELLATION_CODE;
 
-    void readFields(DataInput in) throws IOException{
+    public void readFields(DataInput in) throws IOException{
         YEAR.readFields(in);
     }
 }
