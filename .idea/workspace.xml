@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef02adc8-9eb4-4ea1-8b11-800130f2a2a4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlightWritable.java" afterPath="$PROJECT_DIR$/src/main/java/FlightWritable.java" />
-    </list>
+    <list default="true" id="ef02adc8-9eb4-4ea1-8b11-800130f2a2a4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -330,12 +328,12 @@
       <workItem from="1570540478028" duration="260000" />
       <workItem from="1570540787474" duration="732000" />
       <workItem from="1570564304363" duration="2870000" />
-      <workItem from="1570649476093" duration="929000" />
+      <workItem from="1570649476093" duration="987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4791000" />
+    <option name="totallyTimeSpent" value="4849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="411" width="1440" height="877" extended-state="0" />
