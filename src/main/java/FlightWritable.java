@@ -1,5 +1,5 @@
 import org.apache.hadoop.io.*;
 
 public class FlightWritable implements Writable {
-    private Text YEAR, QUARTER, MONTH, 
+    private Text YEAR, QUARTER, MONTH,
 }
