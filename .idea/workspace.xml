@@ -54,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightWritable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -330,12 +330,12 @@
       <workItem from="1570540478028" duration="260000" />
       <workItem from="1570540787474" duration="732000" />
       <workItem from="1570564304363" duration="2870000" />
-      <workItem from="1570649476093" duration="477000" />
+      <workItem from="1570649476093" duration="498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4339000" />
+    <option name="totallyTimeSpent" value="4360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="526" y="62" width="1440" height="877" extended-state="0" />
@@ -627,7 +627,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/FlightWritable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
         </state>
       </provider>

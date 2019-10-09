@@ -1,5 +1,5 @@
-import org.apache.hadoop.io.Writable;
+import org.apache.hadoop.io.*;
 
 public class FlightWritable implements Writable {
-    private Text
+    private Text 
 }
