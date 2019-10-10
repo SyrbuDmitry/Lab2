@@ -15,7 +15,7 @@ public class JoinReducer extends Reducer<AirportKey, Text, Text, Text> {
         Text ID = new Text(iter.next());
         while (iter.hasNext()) {
             Text delay = iter.next();
-           
+
             //context.write(key.getFirst(), outValue);
         }
     }
