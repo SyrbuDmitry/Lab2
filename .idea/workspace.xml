@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef02adc8-9eb4-4ea1-8b11-800130f2a2a4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlightMapper.java" afterPath="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JoinReducer.java" afterPath="$PROJECT_DIR$/src/main/java/JoinReducer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JoinReducer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JoinReducer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/JoinReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="375">
+              <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlightMapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FlightMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,8 +153,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ReduceJoinApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyComporator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JoinReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JoinReducer.java" />
       </list>
     </option>
   </component>
@@ -354,12 +354,12 @@
       <workItem from="1570564304363" duration="2870000" />
       <workItem from="1570649476093" duration="2844000" />
       <workItem from="1570700616087" duration="10782000" />
-      <workItem from="1570732922297" duration="4462000" />
+      <workItem from="1570732922297" duration="4543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21950000" />
+    <option name="totallyTimeSpent" value="22031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="195" y="23" width="1102" height="768" extended-state="0" />
@@ -888,20 +888,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JoinReducer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="315">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JoinReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        <state relative-caret-position="375">
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
