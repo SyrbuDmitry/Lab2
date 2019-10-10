@@ -15,7 +15,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, AirportKey, Text> 
         String columns[] = value.toString().split(",");
         if(columns[0].equals("Code"))
             return;
-        AirportKey airKey = new AirportKey(0, Integer.parseInt(columns[0]));
+        AirportKey airKey = new AirportKey( Integer.parseInt(columns[0]),0);
         Text description = new Text(columns[1]);
         context.write(airKey,description);
     }
