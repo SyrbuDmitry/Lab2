@@ -12,10 +12,19 @@ public class JoinReducer extends Reducer<AirportKey, Text, Text, Text> {
     @Override
     protected void reduce(AirportKey key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         Iterator<Text> iter = values.iterator();
-        Text ID = new Text(iter.next());
+        Text name = new Text(iter.next());
+        double maxDelay = 0, minDelay = Double.MAX_VALUE, averageDelay=0, sum=0;
+        int count=0;
         while (iter.hasNext()) {
-            Text delay = iter.next();
-
+            double delay = Double.parseDouble(iter.next().toString());
+            if(delay > maxDelay)
+                maxDelay=delay;
+            if(delay < minDelay)
+                minDelay = delay;
+            count++;
+            sum += delay;
         }
+        averageDelay = sum/count;
+        context.write();
     }
 }
