@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef02adc8-9eb4-4ea1-8b11-800130f2a2a4" name="Default" comment="" />
+    <list default="true" id="ef02adc8-9eb4-4ea1-8b11-800130f2a2a4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/JoinReducer.java" afterPath="$PROJECT_DIR$/src/main/java/JoinReducer.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -72,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirportKey.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AirportKey.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportKey.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -94,6 +96,18 @@
               <folding>
                 <element signature="e#246#247#0" expanded="true" />
                 <element signature="e#283#284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JoinReducer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JoinReducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/main/java/WordMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/WordCountApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/SystemsJoinMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JoinReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightWritable.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportWritable.java" />
         <option value="$PROJECT_DIR$/src/main/java/CallsJoinMapper.java" />
@@ -151,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ReduceJoinApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyComporator.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JoinReducer.java" />
       </list>
     </option>
   </component>
@@ -161,10 +175,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="519" />
-    <option name="y" value="124" />
-    <option name="width" value="793" />
-    <option name="height" value="877" />
+    <option name="x" value="777" />
+    <option name="y" value="51" />
+    <option name="width" value="1102" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -338,15 +352,15 @@
       <workItem from="1570540787474" duration="732000" />
       <workItem from="1570564304363" duration="2870000" />
       <workItem from="1570649476093" duration="2844000" />
-      <workItem from="1570700616087" duration="5532000" />
+      <workItem from="1570700616087" duration="5762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12238000" />
+    <option name="totallyTimeSpent" value="12468000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="256" y="67" width="1102" height="768" extended-state="0" />
+    <frame x="502" y="24" width="1102" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -650,16 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JoinReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -718,17 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyComporator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AirportPartioner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -747,6 +740,27 @@
             <element signature="imports" expanded="true" />
             <element signature="e#579#580#0" expanded="true" />
             <element signature="e#643#644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyComporator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JoinReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
