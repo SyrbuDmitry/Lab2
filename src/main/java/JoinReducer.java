@@ -23,7 +23,6 @@ public class JoinReducer extends Reducer<AirportKey, Text, Text, Text> {
             if(delay < minDelay)
                 minDelay = delay;
             count++;
-            context.write(name, new Text(String.valueOf(count)));
             sum += delay;
         }
 
