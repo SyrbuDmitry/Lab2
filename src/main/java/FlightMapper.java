@@ -13,7 +13,8 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportKey, Text> {
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String columns[] = value.toString().split(",");
-        if(columns[0].equals(""""))
+        if(columns[0].equals("\"YEAR\""))
+            return;
         AirportKey flKey = new AirportKey(new Text(columns[14]),new IntWritable(1));
         Text delay = new Text(columns[17]);
         context.write(flKey, delay);
