@@ -29,8 +29,8 @@
       <file leaf-file-name="FlightMapper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="105">
+              <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -123,8 +123,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="68" />
+    <option name="x" value="194" />
+    <option name="y" value="498" />
     <option name="width" value="1102" />
     <option name="height" value="768" />
   </component>
@@ -300,15 +300,15 @@
       <workItem from="1570540787474" duration="732000" />
       <workItem from="1570564304363" duration="2870000" />
       <workItem from="1570649476093" duration="2844000" />
-      <workItem from="1570700616087" duration="3260000" />
+      <workItem from="1570700616087" duration="3288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9966000" />
+    <option name="totallyTimeSpent" value="9994000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="204" y="129" width="1102" height="768" extended-state="0" />
+    <frame x="323" y="194" width="1102" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -706,8 +706,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="105">
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding />
         </state>
       </provider>
