@@ -7,9 +7,9 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class AirportKey implements WritableComparable<AirportKey> {
-    private Text AIRPORT_ID;
-    private IntWritable  source;
-   
+
+    private int AIRPORT_ID, source;
+
     public void readFields(DataInput in) throws IOException{
         source.readFields(in);
         AIRPORT_ID.readFields(in);
