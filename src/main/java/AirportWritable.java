@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
+import org.apache.hadoop.io.Writable;
 
-public class AirportWritable {
+public class AirportWritable implements Writable {
+    private 
 }
