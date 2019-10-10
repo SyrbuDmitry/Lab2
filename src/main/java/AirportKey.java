@@ -9,12 +9,12 @@ import java.io.IOException;
 public class AirportKey implements WritableComparable<AirportKey> {
     private Text AIRPORT_ID;
     private IntWritable  source;
-    @Override
+   
     public void readFields(DataInput in) throws IOException{
         source.readFields(in);
         AIRPORT_ID.readFields(in);
     }
-    @Override
+
     public void write(DataOutput out) throws IOException{
         AIRPORT_ID.write(out);
         source.write(out);
