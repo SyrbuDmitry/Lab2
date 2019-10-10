@@ -15,4 +15,5 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportKey, IntWrit
         AirportKey flKey = new AirportKey(1,Integer.parseInt(columns[14]));
         IntWritable delay = new IntWritable(Integer.parseInt(columns[17]));
         context.write(flKey, delay);
-    } }
+    }
+}

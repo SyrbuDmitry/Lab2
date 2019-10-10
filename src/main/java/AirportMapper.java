@@ -9,9 +9,11 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 
 
-public class AirportMapper extends Mapper<LongWritable, Text, TextPair, Text> {
+public class AirportMapper extends Mapper<LongWritable, Text, AirportKey, Text> {
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-        SystemInfo system = new SystemInfo(value);
-        context.write(new TextPair(system.getSystemCode().toString(),"0"), new Text(system.toString())); }
+        String columns[] = value.toString().split(",");
+        AirportKey flKey = new AirportKey(0, Integer.parseInt(columns[0]));
+        Text description = new Text(columns[1]);
+    }
 }
