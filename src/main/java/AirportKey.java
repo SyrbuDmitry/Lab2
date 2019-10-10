@@ -22,21 +22,24 @@ public class AirportKey implements WritableComparable<AirportKey> {
 
 
     public int compareTo(AirportKey obj){
-        int r = this.AIRPORT_ID.compareTo(obj.AIRPORT_ID);
+        int r = compare(AIRPORT_ID, obj.AIRPORT_ID);
         if (r!=0)
             return r;
         else
-            return this.source.compareTo(obj.source);
+            return compare(source, obj.source);
+    }
+
+    private int compare(int a, int b){
+        return Integer.compare(a,b);
     }
     public AirportKey(){
     }
 
-    public AirportKey(Text id, IntWritable s){
+    public AirportKey(int id, int s){
         AIRPORT_ID=id;
         source=s;
     }
     public int getID(){
-        int id=Integer.parseInt(AIRPORT_ID.toString());
-        return id;
+        return AIRPORT_ID;
     }
 }
