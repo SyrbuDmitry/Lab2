@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef02adc8-9eb4-4ea1-8b11-800130f2a2a4" name="Default" comment="" />
+    <list default="true" id="ef02adc8-9eb4-4ea1-8b11-800130f2a2a4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyComporator.java" afterPath="$PROJECT_DIR$/src/main/java/MyComporator.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,8 +67,8 @@
       <file leaf-file-name="MyComporator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyComporator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="60">
+              <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -145,11 +147,11 @@
         <option value="$PROJECT_DIR$/src/main/java/HashPartitioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportPartioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/JoinReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MyComporator.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReduceJoinApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyComporator.java" />
       </list>
     </option>
   </component>
@@ -349,12 +351,12 @@
       <workItem from="1570564304363" duration="2870000" />
       <workItem from="1570649476093" duration="2844000" />
       <workItem from="1570700616087" duration="10782000" />
-      <workItem from="1570732922297" duration="3424000" />
+      <workItem from="1570732922297" duration="3476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20912000" />
+    <option name="totallyTimeSpent" value="20964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="45" width="1102" height="768" extended-state="0" />
@@ -885,8 +887,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MyComporator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="60">
+          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
           <folding />
         </state>
       </provider>
