@@ -26,7 +26,7 @@ public class ReduceJoinApp {
         job.setPartitionerClass(AirportPartioner.class);
         job.setGroupingComparatorClass(MyComporator.class);
         job.setReducerClass(JoinReducer.class);
-        //job.setMapOutputKeyClass(TextPair.class);
+        job.setMapOutputKeyClass(AirportKey.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class);
         job.setNumReduceTasks(2);
