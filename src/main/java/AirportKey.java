@@ -10,15 +10,17 @@ public class AirportKey implements WritableComparable<AirportKey> {
 
     private int AIRPORT_ID, source;
 
-    public void readFields(DataInput in) throws IOException{
-        source.readFields(in);
-        AIRPORT_ID.readFields(in);
+    public void write(DataOutput out) throws IOException{
+        out.writeInt(AIRPORT_ID);
+        out.writeInt(source);
     }
 
-    public void write(DataOutput out) throws IOException{
-        AIRPORT_ID.write(out);
-        source.write(out);
+    public void readFields(DataInput in) throws IOException{
+        AIRPORT_ID = in.readInt();
+        source = in.readInt();
     }
+
+
     public int compareTo(AirportKey obj){
         int r = this.AIRPORT_ID.compareTo(obj.AIRPORT_ID);
         if (r!=0)
