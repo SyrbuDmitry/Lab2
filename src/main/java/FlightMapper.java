@@ -8,9 +8,9 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 
 
-public class FlightMapper extends Mapper<AirportKey, Text, AirportKey, IntWritable> {
+public class FlightMapper extends Mapper<LongWritable, Text, AirportKey, IntWritable> {
     @Override
-    protected void map(AirportKey key, Text value, Context context) throws IOException, InterruptedException {
+    protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String columns[] = value.toString().split(",");
         AirportKey flKey = new AirportKey(1,Integer.parseInt(columns[14]));
         IntWritable delay = new IntWritable(Integer.parseInt(columns[17]));
