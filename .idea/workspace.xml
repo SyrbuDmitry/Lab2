@@ -12,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReduceJoinApp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReduceJoinApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ReduceJoinApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -72,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirportKey.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AirportKey.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportKey.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -350,12 +350,12 @@
       <workItem from="1570540787474" duration="732000" />
       <workItem from="1570564304363" duration="2870000" />
       <workItem from="1570649476093" duration="2844000" />
-      <workItem from="1570700616087" duration="7109000" />
+      <workItem from="1570700616087" duration="7117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13815000" />
+    <option name="totallyTimeSpent" value="13823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="256" y="55" width="1102" height="768" extended-state="0" />
@@ -680,16 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ReduceJoinApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AirportMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -728,18 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AirportWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MyComporator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -759,6 +737,28 @@
             <element signature="imports" expanded="true" />
             <element signature="e#579#580#0" expanded="true" />
             <element signature="e#643#644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AirportWritable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReduceJoinApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
