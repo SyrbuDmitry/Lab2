@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef02adc8-9eb4-4ea1-8b11-800130f2a2a4" name="Default" comment="" />
+    <list default="true" id="ef02adc8-9eb4-4ea1-8b11-800130f2a2a4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyComporator.java" afterPath="$PROJECT_DIR$/src/main/java/MyComporator.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirportKey.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AirportKey.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportKey.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="346">
@@ -62,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyComporator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyComporator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyComporator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding>
                 <element signature="e#223#224#0" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
@@ -163,7 +165,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="311" />
+    <option name="x" value="676" />
     <option name="y" value="23" />
     <option name="width" value="1102" />
     <option name="height" value="768" />
@@ -352,15 +354,15 @@
       <workItem from="1570564304363" duration="2870000" />
       <workItem from="1570649476093" duration="2844000" />
       <workItem from="1570700616087" duration="10782000" />
-      <workItem from="1570732922297" duration="3724000" />
+      <workItem from="1570732922297" duration="3734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21212000" />
+    <option name="totallyTimeSpent" value="21222000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="311" y="23" width="1102" height="768" extended-state="0" />
+    <frame x="676" y="23" width="1102" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -881,17 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyComporator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AirportKey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -902,6 +893,17 @@
             <element signature="e#858#859#0" expanded="true" />
             <element signature="e#999#1000#0" expanded="true" />
             <element signature="e#1032#1033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyComporator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
           </folding>
         </state>
       </provider>
