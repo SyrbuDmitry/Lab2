@@ -8,13 +8,11 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 
 
-public class FlightMapper extends Mapper<FlightWritable, Text, FlightWritable, Text> {
+public class FlightMapper extends Mapper<AirportKey, Text, FlightWritable, Text> {
     @Override
-    protected void map(FlightWritable key, Text value, Context context) throws IOException, InterruptedException {
+    protected void map(AirportKey key, Text value, Context context) throws IOException, InterruptedException {
         String columns[] = value.toString().split(",");
-        FlightWritable  = new FlightWritable();
-
+        AirportKey flKey = new AirportKey(1,columns[]);
         ServiceCall call = new ServiceCall(value);
-        context.write(new TextPair(call.getSystemA().toString(),"1"),
-        new Text(call.toString()));
+        context.write(new TextPair(call.getSystemA().toString(),"1"), new Text(call.toString()));
     } }
