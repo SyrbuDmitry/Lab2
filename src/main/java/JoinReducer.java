@@ -16,12 +16,13 @@ public class JoinReducer extends Reducer<AirportKey, Text, Text, Text> {
         double maxDelay = 0, minDelay = Double.MAX_VALUE, averageDelay=0, sum=0;
         int count=0;
         while (iter.hasNext()) {
+            count++;
             double delay = Double.parseDouble(iter.next().toString());
             if(delay > maxDelay)
                 maxDelay=delay;
             if(delay < minDelay)
                 minDelay = delay;
-            count++;
+
             sum += delay;
         }
         context.write(name, new Text(String.valueOf(count)));
