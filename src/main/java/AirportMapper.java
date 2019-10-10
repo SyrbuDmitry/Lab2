@@ -13,7 +13,7 @@ public class AirportMapper extends Mapper<LongWritable, Text, AirportKey, Text> 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String columns[] = value.toString().split(",");
-        if(columns[0].equals("Code"))
+        if(columns[0].equals("\"Code\""))
             return;
         AirportKey airKey = new AirportKey( new Text(columns[0]),new IntWritable(0));
         Text description = new Text(columns[1]);
