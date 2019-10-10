@@ -26,6 +26,11 @@ public class AirportKey implements WritableComparable<AirportKey> {
     }
     public AirportKey(){
     }
+
+    public AirportKey(Text id, IntWritable s){
+        AIRPORT_ID=id;
+        source=s;
+    }
     public int getID(){
         int id=Integer.parseInt(AIRPORT_ID.toString());
         return id;
