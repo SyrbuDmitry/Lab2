@@ -9,13 +9,12 @@ import java.io.IOException;
 import java.util.Iterator;
 
 public class JoinReducer extends Reducer<AirportKey, Text, Text, Text> {
-    double maxDelay = 0, minDelay = Double.MAX_VALUE, averageDelay=0, sum=0;
-    int count=0;
     @Override
     protected void reduce(AirportKey key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         Iterator<Text> iter = values.iterator();
         Text name = new Text(iter.next());
-
+        double maxDelay = 0, minDelay = Double.MAX_VALUE, averageDelay=0, sum=0;
+        int count=0;
         while (iter.hasNext()) {
             count++;
             double delay = Double.parseDouble(iter.next().toString());
