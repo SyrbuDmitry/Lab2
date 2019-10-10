@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef02adc8-9eb4-4ea1-8b11-800130f2a2a4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/AirportKey.java" afterPath="$PROJECT_DIR$/src/main/java/AirportKey.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AirportMapper.java" afterPath="$PROJECT_DIR$/src/main/java/AirportMapper.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FlightMapper.java" afterPath="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlightMapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FlightMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FlightMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -107,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AirportMapper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AirportMapper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AirportMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="76" lean-forward="true" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+              <caret line="17" column="83" lean-forward="false" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,10 +156,10 @@
         <option value="$PROJECT_DIR$/src/main/java/AirportPartioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyComporator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ReduceJoinApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AirportMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/JoinReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/AirportKey.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AirportMapper.java" />
       </list>
     </option>
   </component>
@@ -357,12 +358,12 @@
       <workItem from="1570540787474" duration="732000" />
       <workItem from="1570564304363" duration="2870000" />
       <workItem from="1570649476093" duration="2844000" />
-      <workItem from="1570700616087" duration="10639000" />
+      <workItem from="1570700616087" duration="10671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17345000" />
+    <option name="totallyTimeSpent" value="17377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="65" width="1102" height="768" extended-state="0" />
@@ -370,7 +371,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32902297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -755,16 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AirportMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="76" lean-forward="true" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JoinReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -798,6 +789,16 @@
         <state relative-caret-position="120">
           <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AirportMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="83" lean-forward="false" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
