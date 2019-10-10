@@ -1,5 +1,7 @@
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Partitioner;
 
-public class HashPartitioner<K, V> extends Partitioner<K, V> { public int getPartition(K key, V value, int numReduceTasks) {
+public class AirportPartioner extends Partitioner<AirportKey, Text> {
+    public int getPartition(AirportKey key, Text value, int numReduceTasks) {
     return (key.hashCode() & Integer.MAX_VALUE) % numReduceTasks; }
 }
