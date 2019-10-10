@@ -1,4 +1,5 @@
 import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.WritableComparable;
 
 import java.io.DataInput;
@@ -6,7 +7,8 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 public class AirportKey implements WritableComparable<AirportKey> {
-    private IntWritable AIRPORT_ID, source;
+    private Text AIRPORT_ID;
+    private IntWritable  source;
     public void readFields(DataInput in) throws IOException{
         AIRPORT_ID.readFields(in);
         source.readFields(in);
@@ -24,12 +26,8 @@ public class AirportKey implements WritableComparable<AirportKey> {
     }
     public AirportKey(){
     }
-    public AirportKey(int ID, int source){
-        this.source=new IntWritable(source);
-        this.AIRPORT_ID=new IntWritable(ID);
-    }
     public int getID(){
-        int id=AIRPORT_ID.get();
+        int id=Integer.parseInt(AIRPORT_ID.toString());
         return id;
     }
 }
