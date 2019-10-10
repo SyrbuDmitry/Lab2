@@ -29,7 +29,7 @@ public class AirportKey implements WritableComparable<AirportKey> {
             return compare(source, obj.source);
     }
 
-    public int compare(int a, int b){
+    public static int compare(int a, int b){
         return Integer.compare(a,b);
     }
     public AirportKey(){
