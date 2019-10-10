@@ -1,6 +1,7 @@
 import org.apache.hadoop.io.*;
 
 import java.io.DataInput;
+import java.io.DataOutput;
 import java.io.IOException;
 
 public class FlightWritable implements Writable {
@@ -11,6 +12,11 @@ public class FlightWritable implements Writable {
     private Text FL_DATE, UNIQUE_CARRIER, CARRIER, TAIL_NUM, CANCELLATION_CODE;
 
     public void readFields(DataInput in) throws IOException{
-        YEAR.readFields(in);
+        CANCELLED.readFields(in);
+        ARR_DELAY.readFields(in);
+    }
+    public void write(DataOutput out) throws IOException {
+        CANCELLED.write(out);
+        ARR_DELAY.write(out);
     }
 }
