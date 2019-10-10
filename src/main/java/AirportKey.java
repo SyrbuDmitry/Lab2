@@ -10,7 +10,6 @@ public class AirportKey implements WritableComparable<AirportKey> {
     private Text AIRPORT_ID;
     private IntWritable  source;
     public void readFields(DataInput in) throws IOException{
-
         source.readFields(in);
         AIRPORT_ID.readFields(in);
     }
