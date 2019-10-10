@@ -22,6 +22,8 @@ public class AirportKey implements WritableComparable<AirportKey> {
         else
             return this.source.compareTo(obj.source);
     }
+    public AirportKey(){
+    }
     public AirportKey(int ID, int source){
         this.source=new IntWritable(source);
         this.AIRPORT_ID=new IntWritable(ID);
