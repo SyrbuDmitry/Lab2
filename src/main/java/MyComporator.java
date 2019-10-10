@@ -3,7 +3,7 @@ import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;
 
 public class MyComporator extends WritableComparator {
-     public int compare(WritableComparable a,WritableComparable b) {
+     public int compare(AirportKey a,AirportKey b) {
         return a.compareTo(b);
     }
 }
