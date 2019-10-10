@@ -19,7 +19,7 @@ public class FlightMapper extends Mapper<LongWritable, Text, AirportKey, Text> {
             return;
         AirportKey flKey = new AirportKey(Integer.parseInt(columns[14].replace("\"","")),1);
 
-        Text delay = new Text(columns[17]);
+        Text delay = new Text("1.2");
         context.write(flKey, delay);
     }
 }
