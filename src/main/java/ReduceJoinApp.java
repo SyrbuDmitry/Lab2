@@ -24,7 +24,7 @@ public class ReduceJoinApp {
         MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, AirportMapper.class);
         FileOutputFormat.setOutputPath(job, new Path(args[2]));
         job.setPartitionerClass(AirportPartioner.class);
-        //job.setGroupingComparatorClass(MyComporator.class);
+        job.setGroupingComparatorClass(MyComporator.class);
         job.setReducerClass(JoinReducer.class);
         job.setMapOutputKeyClass(AirportKey.class);
         job.setOutputKeyClass(Text.class);
