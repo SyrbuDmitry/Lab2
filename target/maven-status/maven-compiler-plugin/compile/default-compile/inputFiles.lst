@@ -1,8 +1,8 @@
-/Users/dmitrijsyrbu/Lab2/src/main/java/AirportPartioner.java
-/Users/dmitrijsyrbu/Lab2/src/main/java/AirportKey.java
-/Users/dmitrijsyrbu/Lab2/src/main/java/AirportMapper.java
-/Users/dmitrijsyrbu/Lab2/src/main/java/JoinReducer.java
-/Users/dmitrijsyrbu/Lab2/src/main/java/AirportWritable.java
-/Users/dmitrijsyrbu/Lab2/src/main/java/ReduceJoinApp.java
-/Users/dmitrijsyrbu/Lab2/src/main/java/MyComporator.java
-/Users/dmitrijsyrbu/Lab2/src/main/java/FlightMapper.java
+/Users/dmitrijsyrbu/Lab2/src/main/java/mapreduce/reducesiedejoin/AirportKey.java
+/Users/dmitrijsyrbu/Lab2/src/main/java/mapreduce/reducesiedejoin/MyComporator.java
+/Users/dmitrijsyrbu/Lab2/src/main/java/mapreduce/reducesiedejoin/FlightMapper.java
+/Users/dmitrijsyrbu/Lab2/src/main/java/mapreduce/reducesiedejoin/AirportMapper.java
+/Users/dmitrijsyrbu/Lab2/src/main/java/mapreduce/reducesiedejoin/JoinReducer.java
+/Users/dmitrijsyrbu/Lab2/src/main/java/mapreduce/reducesiedejoin/AirportPartioner.java
+/Users/dmitrijsyrbu/Lab2/src/main/java/mapreduce/reducesiedejoin/AirportWritable.java
+/Users/dmitrijsyrbu/Lab2/src/main/java/mapreduce/reducesiedejoin/ReduceJoinApp.java
