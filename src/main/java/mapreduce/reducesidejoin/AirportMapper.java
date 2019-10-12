@@ -9,7 +9,7 @@ import java.io.IOException;
 
 
 public class AirportMapper extends Mapper<LongWritable, Text, AirportKey, Text> {
-    private  int DESCRIPTION=1, COLUMN_NAME=0;
+    private static int DESCRIPTION=1, COLUMN_NAME=0;
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {

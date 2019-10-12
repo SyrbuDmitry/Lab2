@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef02adc8-9eb4-4ea1-8b11-800130f2a2a4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirportKey.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirportMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirportPartioner.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirportWritable.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlightMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JoinReducer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyComporator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReduceJoinApp.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapreduce/reducesidejoin/AirportMapper.java" afterPath="$PROJECT_DIR$/src/main/java/mapreduce/reducesidejoin/AirportMapper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/mapreduce/reducesidejoin/AirportMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -396,12 +386,12 @@
       <workItem from="1570872058691" duration="2574000" />
       <workItem from="1570874892795" duration="162000" />
       <workItem from="1570896160161" duration="2290000" />
-      <workItem from="1570898512538" duration="23000" />
+      <workItem from="1570898512538" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35598000" />
+    <option name="totallyTimeSpent" value="35608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -670,7 +660,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/mapreduce/reducesidejoin/AirportMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="18" />
           <folding />
         </state>
       </provider>
